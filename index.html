@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="site-header">
+        <div class="container site-header__container">
+
+            <div class="site-header__box">
+                <a class="site-header__logo-link" href="#">
+                    <h2 class="site-header__title">
+                        Where in the world?
+                    </h2>
+                </a>
+                <div class="site-header__block">
+                  
+                    <button  class="site-header__button">
+                        Dark Mode
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="site-main">
+
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__box-left">
+                   
+                    <input  class="hero__input" type="search" id="search" placeholder="Search for a country…"
+                        aria-label="search">
+                </div>
+                <select class="hero__select" name="region" id="region">
+                    <option class="hero__option" value="All">Filter by Region</option>
+                    <option class="hero__option" value="africa">Africa</option>
+                    <option class="hero__option" value="america">America</option>
+                    <option class="hero__option" value="asia">Asia</option>
+                    <option class="hero__option" value="europe">Europe</option>
+                    <option class="hero__option" value="Oceania">Oceania</option>
+                    
+                </select>
+
+            </div>
+        </section>
+        <section class="flag">
+          <div class="container flag__container">
+            <ul class="list-group">
+            </ul>
+          </div>
+        </section>
+
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+<!-- flag__list -->
